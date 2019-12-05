@@ -1,0 +1,183 @@
+@CHARSET "UTF-8";
+
+body{
+ 
+ }
+ 
+
+ .petals {
+     background-color: white;
+      border: 2px solid black;
+      display:inline-block;
+	position: absolute;
+	 width: 30px;
+    height: 90px;
+    border-radius: 50%;
+     top: 335px;
+    left:305px;
+    transform-origin: bottom;
+     cursor: url('paintbrush.png'), crosshair;
+ }
+ 
+ #center{
+     width: 50px;
+     height: 50px;
+     top: 400px;
+     left: 295px;
+     border-radius: 50%;
+      cursor: url('paintbrush.png'), crosshair;
+      z-index: 19;
+ }
+ 
+ #petal1{
+     z-index: 9;
+ }
+ 
+ #petal2{
+    transform: rotate(20deg);
+    z-index: 17;
+ }
+ 
+ #petal3{
+    transform: rotate(40deg);
+    z-index: 8;
+ }
+ #petal4{
+    transform: rotate(60deg);
+    z-index: 10;
+ }
+ 
+ #petal5{
+    transform: rotate(80deg);
+    z-index: 7;
+ }
+ 
+ #petal6{
+    transform: rotate(100deg);
+   z-index: 11;
+ }
+ 
+ #petal7{
+    transform: rotate(120deg);
+    z-index: 6;
+ }
+ 
+ #petal8{
+    transform: rotate(140deg);
+   z-index: 12;
+ }
+ 
+  #petal9{
+    transform: rotate(160deg);
+   z-index: 5;
+ }
+ 
+#petal10{
+    transform: rotate(180deg);
+   z-index: 13;;
+ }
+ 
+ #petal11{
+    transform: rotate(200deg);
+   z-index: 4;
+ }
+ #petal12{
+    transform: rotate(220deg);
+   z-index: 14;
+ }
+ #petal13{
+    transform: rotate(240deg);
+   z-index: 3;
+ }
+ #petal14{
+    transform: rotate(260deg);
+   z-index: 15;
+ }
+ #petal15{
+    transform: rotate(280deg);
+   z-index: 2;
+ }
+ #petal16{
+    transform: rotate(300deg);
+   z-index: 16;
+ }
+ #petal17{
+    transform: rotate(320deg);
+   z-index: 1;
+ }
+ #petal18{
+    transform: rotate(340deg);
+    z-index: 18;
+   }
+   
+    .petals2 {
+     background-color: white;
+      border: 2px solid black;
+      display:inline-block;
+	position: absolute;
+	 width: 30px;
+    height: 90px;
+    border-radius: 50%;
+     top: 125px;
+    left:475px;
+    transform-origin: bottom;
+     cursor: url('paintbrush.png'), crosshair;
+ }
+ 
+  #center2{
+     width: 50px;
+     height: 50px;
+     top: 190px;
+     left: 465px;
+     border-radius: 50%;
+      cursor: url('paintbrush.png'), crosshair;
+      z-index: 19;
+}
+
+   .petals3 {
+     background-color: white;
+      border: 2px solid black;
+      display:inline-block;
+	position: absolute;
+	 width: 30px;
+    height: 90px;
+    border-radius: 50%;
+     top: 400px;
+    left:525px;
+    transform-origin: bottom;
+     cursor: url('paintbrush.png'), crosshair;
+ }
+ 
+  #center3{
+     width: 50px;
+     height: 50px;
+     top: 465px;
+     left: 515px;
+     border-radius: 50%;
+      cursor: url('paintbrush.png'), crosshair;
+      z-index: 19;
+}
+
+ .petals4 {
+     background-color: white;
+      border: 2px solid black;
+      display:inline-block;
+	position: absolute;
+	 width: 30px;
+    height: 90px;
+    border-radius: 50%;
+     top: 125px;
+    left:250px;
+    transform-origin: bottom;
+     cursor: url('paintbrush.png'), crosshair;
+ }
+ 
+  #center4{
+     width: 50px;
+     height: 50px;
+     top: 194px;
+     left: 240px;
+     border-radius: 50%;
+      cursor: url('paintbrush.png'), crosshair;
+      z-index: 19;
+}

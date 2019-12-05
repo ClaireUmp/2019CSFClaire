@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+.Menu{
+    display:inline-block;
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	top: 100px;
+	left: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 200%;
+	cursor: auto;
+    
+}
+
+.Dropdown{
+    display:inline-block;
+	position: absolute;
+	background-color: gray;
+	top: 135px;
+	left: 20px;
+	width: 0;
+	height: 75px;
+	color: #a3a3c2;
+	font-size: 120%;
+	cursor: auto;
+}
+
+#flowerbutton{
+    display:inline-block;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	height: 20px;
+}
+
+#otherbutton{
+    display:inline-block;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	height: 20px;
+}

@@ -1,0 +1,170 @@
+@CHARSET "UTF-8";
+
+body{
+ background-color:#a3a3c2;
+ }
+ 
+
+.triangle {
+	display:inline-block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent; 
+	left: 225px;
+	top: 30px;
+	}
+
+
+#Tri1{
+    border-bottom: 50px solid darkred; }
+
+#Tri2{
+    border-top: 50px solid red;
+    left: 250px;
+    top: 28px;   }
+
+#Tri3{
+    border-bottom: 50px solid darkorange;
+    left:275px;
+}
+
+#Tri4{
+    border-top: 50px solid yellow;
+    left: 300px;
+    top: 28px;
+}
+
+#Tri5{
+    border-bottom: 50px solid yellowgreen;
+    left:325px;
+}
+
+#Tri6{
+    border-top: 50px solid green;
+    left: 350px;
+    top: 28px;
+}
+
+#Tri7{
+    border-bottom: 50px solid teal;
+    left:375px;
+}
+
+#Tri8{
+    border-top: 50px solid blue;
+    left: 400px;
+    top: 28px;
+}
+
+#Tri9{
+    border-bottom: 50px solid darkblue;
+    left:425px;
+}
+
+#Tri10{
+    border-top: 50px solid #4b0066;
+    left: 450px;
+    top: 28px;
+}
+
+#Tri11{
+    border-bottom: 50px solid white;
+    left:475px;
+}
+
+#Tri12{
+    border-top: 50px solid black;
+    left: 500px;
+    top: 28px;
+}
+
+.box{
+    display:inline-block;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    top: 100px;
+    left: 150px; 
+    background-color: white;
+    cursor: url('paintbrush.png'), crosshair;
+}
+
+.chosen{
+    display:inline-block;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border: 5px solid grey;
+    top: 15px;
+    left: 125px; 
+    background-color: #a3a3c2;
+    
+}
+
+
+.button{
+    display:inline-block;
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#button1{
+    top: 45px;
+    left:235px; 
+}
+
+#button2{
+    top: 25px;
+    left:260px; 
+}
+
+#button3{
+    top: 45px;
+    left:285px; 
+}
+
+#button4{
+    top: 25px;
+    left:310px; 
+}
+
+#button5{
+    top: 45px;
+    left:335px; 
+}
+
+#button6{
+    top: 25px;
+    left:360px; 
+}
+
+#button7{
+    top: 45px;
+    left:385px; 
+}
+#button8{
+    top: 25px;
+    left:410px; 
+}
+#button9{
+    top: 45px;
+    left:435px; 
+}
+#button10{
+    top: 25px;
+    left:460px; 
+}
+#button11{
+    top: 45px;
+    left:485px; 
+}
+
+#button12{
+    top: 25px;
+    left:510px; 
+}
