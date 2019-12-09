@@ -1,5 +1,8 @@
 $("#flowerbutton").click(function(){
-     $("#flowers_main").append("<div class='petals' id= 'petal17'></div>");
+    for(var b=1; b<=18; c++){
+    $("#flowerWrapper").append("<div class='petals' id= 'petal" + b + "'></div>");
+}
+    /* $("#flowers_main").append("<div class='petals' id= 'petal17'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal15'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal13'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal11'></div>");
@@ -18,6 +21,7 @@ $("#flowerbutton").click(function(){
      $("#flowers_main").append("<div class='petals' id= 'petal16'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal2'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal18'></div>");
+     */
      
      $("#flowers_main").append("<div class='petals2' id= 'petal17'></div>");
      $("#flowers_main").append("<div class='petals2' id= 'petal15'></div>");

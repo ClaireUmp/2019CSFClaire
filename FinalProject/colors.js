@@ -4,6 +4,9 @@ for(var c=1; c<=12; c++){
     $("#triangleWrapper").append("<div class='triangle' id= 'Tri" + c + "'></div>");
 }
 
+for(var a=1; a<=12; a++){
+    $("#buttonWrapper").append("<div class= 'button' id= 'button" + a + "'></div>");
+}
 
  $("#button1").click(function(){
      color = 'darkred';
