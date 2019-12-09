@@ -32,9 +32,9 @@ $(".Dropdown").hover(function(){
 });
 
 $(".Dropdown").hover(function(){
- $("#otherbutton").css("width", "100px");
+ $("#citybutton").css("width", "100px");
 }, function(){
-  $("#otherbutton").css("width", "0px");
+  $("#citybutton").css("width", "0px");
 });
 
 $("#flowerbutton").hover(function(){
@@ -43,7 +43,7 @@ $("#flowerbutton").hover(function(){
   $(".Dropdown").css("width", "100px");
 });
 
-$("#otherbutton").hover(function(){
+$("#citybutton").hover(function(){
  $(".Dropdown").css("width", "100px");
 }, function(){
   $(".Dropdown").css("width", "100px");
@@ -55,16 +55,14 @@ $("#flowerbutton").hover(function(){
   $(".Dropdown").css("color", "black");
 });
  
- $("#otherbutton").hover(function(){
+ $("#citybutton").hover(function(){
  $(".Dropdown").css("color", "black");
 }, function(){
   $(".Dropdown").css("color", "black");
 });
 
 
-$("#otherbutton").click(function(){
-     $(".Menu").css("background-color", "red");
-  });
+
 
 
   

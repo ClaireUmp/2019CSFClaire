@@ -23,15 +23,42 @@
 }
 
 #build2{
-    top: 250px;
+    top: 292px;
     left: 250px;
-    height: 352px;
+    height: 315px;
     width: 120px;
 }
 
 #build3{
-    top: 350px;
+    top: 330px;
     left: 372px;
-    height: 302px;
-    width: 140px;
+    height: 276px;
+    width: 80px;
+}
+
+#build4{
+    top: 185px;
+    left: 453px;
+    height: 420px;
+    width: 80px;
+}
+
+#build5{
+    top: 350px;
+    left: 534px;
+    height: 255px;
+    width: 120px;
+}
+
+.sun{
+    position: absolute;
+    background-color:none;
+    border: 1px solid rgb(44, 44, 44);
+    top: 150px;
+    left: 200px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+
+
 }
