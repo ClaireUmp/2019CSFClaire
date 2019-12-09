@@ -1,4 +1,4 @@
-("#flowerbutton").click(function(){
+$("#flowerbutton").click(function(){
      $("#flowers_main").append("<div class='petals' id= 'petal17'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal15'></div>");
      $("#flowers_main").append("<div class='petals' id= 'petal13'></div>");

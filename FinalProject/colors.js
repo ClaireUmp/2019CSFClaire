@@ -1,5 +1,9 @@
 var color;
 
+for(var c=1; c<=12; c++){
+    $("#triangleWrapper").append("<div class='triangle' id= 'Tri" + c + "'></div>");
+}
+
 
  $("#button1").click(function(){
      color = 'darkred';
