@@ -23,7 +23,7 @@
 }
 
 #build2{
-    top: 292px;
+    top: 291px;
     left: 250px;
     height: 315px;
     width: 120px;
@@ -31,7 +31,7 @@
 
 #build3{
     top: 330px;
-    left: 372px;
+    left: 371px;
     height: 276px;
     width: 80px;
 }
@@ -45,12 +45,13 @@
 
 #build5{
     top: 350px;
-    left: 534px;
+    left: 535px;
     height: 255px;
-    width: 120px;
+    width: 119px;
 }
 
 .sun{
+    display:inline-block;
     position: absolute;
     background-color:none;
     border: 1px solid rgb(44, 44, 44);
@@ -60,5 +61,63 @@
     width: 85px;
     border-radius: 50%;
 
+}
+
+.doors{
+    display:inline-block;
+    position: absolute;
+    background-color:none;
+    border: 1px solid black;
+
+}
+
+#door1{
+    left: 180px;
+    height: 35px;
+    width: 30px;
+    top: 568px; 
+}
+
+#door2{
+    left: 280px;
+    height: 40px;
+    width: 25px;
+    top: 564px; 
+}
+
+
+#door3{
+    left: 306px;
+    height: 40px;
+    width: 25px;
+    top: 564px; 
+}
+
+#door4{
+    left: 395px;
+    height: 30px;
+    width: 25px;
+    top: 574px; 
+}
+
+#door5{
+    left: 480px;
+    height: 50px;
+    width: 25px;
+    top: 554px; 
+}
+
+#door6{
+    left: 560px;
+    height: 30px;
+    width: 30px;
+    top: 577px; 
+}
+
+#door7{
+    left: 593px;
+    height: 30px;
+    width: 30px;
+    top: 577px; 
 }
 
