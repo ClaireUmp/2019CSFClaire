@@ -73,34 +73,3 @@ for(var a=1; a<=12; a++){
 $('.box').click(function(){
     $(this).css("background-color", color);
 });
-
-$('.box').append(function(){
-    $(this).css("background-color", color);
-});
-
-
-
- 
-
-/*$('.petals').append(function(){
-    $(this).css("background-color", color);
-});*/
-
-
-/*$('.petals2').append(function(){
-    $(this).css("background-color", color);
-});*/
-
-
-
-$('.petals3').append(function(){
-    $(this).css("background-color", color);
-});
-
-
-$('.petals4').append(function(){
-    $(this).css("background-color", color);
-});
-
-
-
