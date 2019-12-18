@@ -31,9 +31,9 @@
 
 #build3{
     top: 330px;
-    left: 371px;
+    left: 372px;
     height: 276px;
-    width: 80px;
+    width: 79px;
 }
 
 #build4{
@@ -115,9 +115,18 @@
 }
 
 #door7{
-    left: 593px;
+    left: 591px;
     height: 30px;
     width: 30px;
     top: 577px; 
+}
+
+.all_windows{
+	float: left;
+    background-color:none;
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
 }
 
