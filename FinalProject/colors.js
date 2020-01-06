@@ -73,3 +73,22 @@ for(var a=1; a<=12; a++){
 $('.box').click(function(){
     $(this).css("background-color", color);
 });
+
+$("#flowerbutton").click(function(){
+    for(var p=1; p<=4; p++)
+      $("#flowerWrapper").append("<div class='flower" + p + "' id= 'center" + p + "'></div>");
+        for(var b=1; b<=18; b++){
+            $("#flowerWrapper").append("<div class='petal flower" + p + "' id= 'petal" + b + "'></div>");
+           
+        }
+
+    $('.petal').click(function(){
+    $(this).css("background-color", color);
+    console.log("petal")
+});
+});
+  
+
+
+
+
