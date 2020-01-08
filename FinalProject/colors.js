@@ -75,20 +75,62 @@ $('.box').click(function(){
 });
 
 $("#flowerbutton").click(function(){
-    for(var p=1; p<=4; p++)
-      $("#flowerWrapper").append("<div class='flower" + p + "' id= 'center" + p + "'></div>");
+    for(var p=1; p<=4; p++){
+      $("#flowerWrapper").append("<div class='petal flower" + p + "' id= 'center" + p + "'></div>");
         for(var b=1; b<=18; b++){
             $("#flowerWrapper").append("<div class='petal flower" + p + "' id= 'petal" + b + "'></div>");
            
         }
-
+    }
     $('.petal').click(function(){
     $(this).css("background-color", color);
     console.log("petal")
 });
 });
   
+$("#citybutton").click(function(){
+    
+  for(var d=1; d<=5; d++){
+      console.log(d);
+    $('.buildingWrapper').append("<div class='city building' id= 'build" + d + "'></div>");
+};
 
+    for(var e=1; e<=7; e++){
+      console.log(e);
+    $('.doorWrapper').append("<div class='city doors' id= 'door" + e + "'></div>");
+
+};
+
+    for(var f=1; f<=8; f++){
+        $('#build1').append("<div class='city all_windows' id='wind1'></div>");
+};
+
+    for(var f=1; f<=36; f++){
+        $('#build2').append("<div class='city all_windows' id='wind2'></div>");
+};
+
+    for(var f=1; f<=10; f++){
+        $('#build3').append("<div class='city all_windows' id='wind3'></div>");
+};
+
+    for(var f=1; f<=4; f++){
+        $('#build4').append("<div class='city all_windows' id='wind4'></div>");
+        $('#build4').append("<div class='city all_windows' id='wind5'></div>");
+};
+
+    for(var f=1; f<=6; f++){
+        $('#build5').append("<div class='city all_windows' id='wind6'></div>");
+};
+
+
+    $('.sunWrapper').append("<div class='city sun'></div>");
+
+$('.city').click(function(){
+    $(this).css("background-color", color);
+    console.log("petal")
+});
+}); 
+  
 
 
 
