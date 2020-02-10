@@ -90,6 +90,7 @@ body{
     left: 150px; 
     background-color: white;
     cursor: url('paintbrush.png'), crosshair;
+    z-index: 0;
 }
 
 .chosen{
